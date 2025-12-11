@@ -10,8 +10,8 @@ import CaseStudies from "./pages/CaseStudies";
 import AIAgents from "./pages/services/AIAgents";
 import ProcessAutomation from "./pages/services/ProcessAutomation";
 import BusinessAnalytics from "./pages/services/BusinessAnalytics";
-import Dashboards from "./pages/services/Dashboards";
-import DataExtraction from "./pages/services/DataExtraction";
+import DepartmentAsService from "./pages/services/DepartmentAsService";
+import MVPDevelopment from "./pages/services/MVPDevelopment";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -30,8 +30,8 @@ const App = () => (
           <Route path="/services/ai-agents" element={<AIAgents />} />
           <Route path="/services/process-automation" element={<ProcessAutomation />} />
           <Route path="/services/business-analytics" element={<BusinessAnalytics />} />
-          <Route path="/services/dashboards" element={<Dashboards />} />
-          <Route path="/services/data-extraction" element={<DataExtraction />} />
+          <Route path="/services/department-as-service" element={<DepartmentAsService />} />
+          <Route path="/services/mvp-development" element={<MVPDevelopment />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>

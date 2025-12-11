@@ -13,8 +13,8 @@ const services = [
   { name: "AI Agents & Automation", href: "/services/ai-agents" },
   { name: "Process Automation", href: "/services/process-automation" },
   { name: "Business Analytics", href: "/services/business-analytics" },
-  { name: "Custom Dashboards", href: "/services/dashboards" },
-  { name: "Data Extraction", href: "/services/data-extraction" },
+  { name: "Department as a Service", href: "/services/department-as-service" },
+  { name: "MVP Development", href: "/services/mvp-development" },
 ];
 
 export function Navbar() {
