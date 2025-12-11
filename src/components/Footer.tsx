@@ -4,8 +4,8 @@ const services = [
   { name: "AI Agents", href: "/services/ai-agents" },
   { name: "Process Automation", href: "/services/process-automation" },
   { name: "Business Analytics", href: "/services/business-analytics" },
-  { name: "Custom Dashboards", href: "/services/dashboards" },
-  { name: "Data Extraction", href: "/services/data-extraction" },
+  { name: "Department as a Service", href: "/services/department-as-service" },
+  { name: "MVP Development", href: "/services/mvp-development" },
 ];
 
 const company = [
@@ -27,7 +27,7 @@ export function Footer() {
               <span className="font-display font-bold text-xl text-foreground">DA Services</span>
             </Link>
             <p className="text-muted-foreground max-w-sm">
-              We help businesses automate their workflows and leverage AI to save time, reduce costs, and scale efficiently.
+              Transform your business with proven AI solutions and dedicated expert teams. We guarantee faster growth, reduced costs, and effortless scaling—from MVP to market leader.
             </p>
           </div>
 
