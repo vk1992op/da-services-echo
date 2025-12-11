@@ -1,17 +1,15 @@
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
-import heroNetwork from "@/assets/hero-network.png";
+import { AnimatedNetwork } from "./AnimatedNetwork";
 
 export function HeroSection() {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      {/* Background Image */}
-      <div
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: `url(${heroNetwork})` }}
-      >
-        <div className="absolute inset-0 bg-background/70" />
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-background">
+      {/* Animated Network Background */}
+      <div className="absolute inset-0">
+        <AnimatedNetwork />
+        <div className="absolute inset-0 bg-background/30" />
       </div>
 
       {/* Content */}
