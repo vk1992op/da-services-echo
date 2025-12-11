@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { Logo } from "./Logo";
 
 const services = [
   { name: "AI Agents", href: "/services/ai-agents" },
@@ -20,12 +21,7 @@ export function Footer() {
       <div className="container mx-auto px-4 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="col-span-1 md:col-span-2">
-            <Link to="/" className="flex items-center space-x-2 mb-4">
-              <div className="w-8 h-8 bg-primary rounded-sm flex items-center justify-center">
-                <span className="text-primary-foreground font-bold text-sm">DA</span>
-              </div>
-              <span className="font-display font-bold text-xl text-foreground">DA Services</span>
-            </Link>
+            <Logo className="mb-4" />
             <p className="text-muted-foreground max-w-sm">
               Transform your business with proven AI solutions and dedicated expert teams. We guarantee faster growth, reduced costs, and effortless scaling—from MVP to market leader.
             </p>
