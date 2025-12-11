@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { ArrowRight, Bot, Workflow, BarChart3, LayoutDashboard, Database } from "lucide-react";
+import { ArrowRight, Bot, Workflow, BarChart3, Users, Rocket } from "lucide-react";
 
 const services = [
   {
@@ -31,21 +31,21 @@ const services = [
   },
   {
     number: "4",
-    title: "Custom Dashboards & Apps",
+    title: "Department as a Service",
     description:
-      "We design internal apps and dashboards that bring your sales, operations, and financial data together, so decisions are faster, teams stay aligned, and performance is clear.",
-    tags: ["Bubble.io", "JavaScript", "Python", "AWS", "Custom Development"],
-    href: "/services/dashboards",
-    icon: LayoutDashboard,
+      "Get a fully operational sales or software development department without the overhead. Our teams integrate seamlessly with your business, scaling up or down based on your needs.",
+    tags: ["Sales Teams", "Dev Teams", "Flexible Scaling", "No HR Overhead", "Rapid Deployment"],
+    href: "/services/department-as-service",
+    icon: Users,
   },
   {
     number: "5",
-    title: "Data Extraction & Processing",
+    title: "MVP Development",
     description:
-      "We automate how your business collects and processes information, from PDFs and invoices to CRMs and emails. Documents are parsed, data validated, and everything flows directly into your systems.",
-    tags: ["Web Scraping", "Document Parsing", "API Integrations", "OCR Processing", "Data Cleaning"],
-    href: "/services/data-extraction",
-    icon: Database,
+      "From concept to market-ready product, we support the entire software lifecycle. Concept consultancy, R&D, prototyping, development, support, and go-to-market — your complete product partner.",
+    tags: ["Concept Validation", "Prototyping", "Agile Development", "Launch Support", "Full Lifecycle"],
+    href: "/services/mvp-development",
+    icon: Rocket,
   },
 ];
 
