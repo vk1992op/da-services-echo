@@ -15,10 +15,10 @@ export function HeroSection() {
       {/* Content */}
       <div className="relative z-10 container mx-auto px-4 pt-20 text-center">
         <h1 className="font-display text-4xl md:text-6xl lg:text-7xl font-bold text-foreground max-w-4xl mx-auto leading-tight mb-6">
-          We automate the work that slows your business down
+          Scale Faster with AI Automation & Expert Teams On Demand
         </h1>
         <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-10">
-          100+ automations & AI solutions deployed for growing teams in marketing, operations, and finance — helping them save hours, cut costs, and scale without extra hires.
+          From MVP to market leader — get dedicated sales and dev departments, proven AI solutions, and end-to-end automation. Cut costs by 40%, launch 3x faster, and grow without limits.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Button
